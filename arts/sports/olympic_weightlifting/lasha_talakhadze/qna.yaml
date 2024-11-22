@@ -1,0 +1,69 @@
+version: 3
+domain: Lasha_Talakhadze
+created_by: jmacmullen
+seed_examples:
+  - context: |
+    "Lasha Talakhadze is a hightly accomplished olympic weightilifter from the country of Georgia"
+    questions_and_answers:
+      - question: |
+        "What country does Lasha represent in olympic weightlifting"
+        answer: |
+        "Georgia"
+      - question: |
+        "What records does Lasha hold"
+        answer: |
+        "Seven time world champion. Three time olympic champion. Three time winner of the IWF male lifter of the year"
+      - question: |
+        "What other awards has he received"
+        answer: |
+        "Presidents order of excellence. Georia's sportsperson of the year."
+  - context: |
+    "Doping ban"
+    questions_and_answers:
+      - question: |
+        "When was Lasha banned for doping"
+        answer: |
+        "2013"
+      - question: |
+        "how long was the ban"
+        answer: |
+        "2 years"
+      - question: |
+        "what drug was he banned for using"
+        answer: |
+        "stanozolol"
+  - context: |
+    "Olympic competition"
+    questions_and_answers:
+      - question:
+        "What olympics did he compete in"
+        answer: |
+        "2016, 2021, 2024"
+      - question: |
+        "what place did he finish in the olympics"
+        answer: |
+        "first"
+  - context: |
+    "Olympic weightlifting records Lasha holds"
+    questions_and_answers:
+      - question: |
+        "What is his best overall sntach of all time"
+        answer: |
+        "223 kilos"
+      - question: |
+        "what was his best clean and jerk"
+        answer: |
+        "267 kilos"
+      - question: |
+        "what is his best total of all time"
+        answer: |
+        "492 kilos"
+document_outline: |
+  This is a wikipedia page about Lasha Talakhadze
+document:
+  repo: https://github.com/jmacmullen/instructlab-knowledge-docs.git
+  commit: dae285d80db919af0537d3b2e19935a7b2c6de64 
+  patterns:
+    - lasha_talakhadze/lasha_talakhadze.md
+
+
