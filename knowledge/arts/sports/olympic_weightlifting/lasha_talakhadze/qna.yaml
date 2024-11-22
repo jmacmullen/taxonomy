@@ -1,69 +1,83 @@
-version: 3
-domain: Lasha_Talakhadze
 created_by: jmacmullen
+version: 3
+domain: biography
+document_outline: Knowledge contribution about the olympic weightlifter Lash Talakhadze
 seed_examples:
-  - context: |
-    "Lasha Talakhadze is a hightly accomplished olympic weightilifter from the country of Georgia"
+  - context: >-
+      Lasha Talakhadze is a hightly accomplished olympic weightilifter from the country of Georgia who
+      holds various olympic and world wedightlifting records in the snatccn and clan and jerk. He has also received other
+      awards in sport from his county Georgia.
     questions_and_answers:
-      - question: |
-        "What country does Lasha represent in olympic weightlifting"
-        answer: |
-        "Georgia"
-      - question: |
-        "What records does Lasha hold"
-        answer: |
-        "Seven time world champion. Three time olympic champion. Three time winner of the IWF male lifter of the year"
-      - question: |
-        "What other awards has he received"
-        answer: |
-        "Presidents order of excellence. Georia's sportsperson of the year."
-  - context: |
-    "Doping ban"
+      - question: What country does Lasha represent in olympic weightlifting?
+        answer: He represents Georgia
+      - question: Does he hold any records?
+        answer: He holds records in the olympics and worlds competitions.
+      - question: What is the name of the best weightlifter in the world?
+        answer: Lasha Talakhadze
+  - context: >-
+      Lasha Talakhadze (Georgian: ლაშა ტალახაძე; Georgian pronunciation: [laʃa tʼalaχadze];
+      born 2 October 1993) is a Georgian weightlifter, holding the all-time world records regardless
+      of weight category in the snatch (225 kg, 496 lb), the clean and jerk (267 kg, 589 lb),
+      and the total (492 kg, 1,085 lb) since 2021.
+      Regarded as one of the greatest weightlifters of all time, Talakhadze is a three-time Olympic champion,[3]
+      seven-time world champion, and seven-time European champion competing in the super-heavyweight category
+      (105 kg + until 2018[4] and 109 kg + starting in 2018 after the International Weightlifting Federation reorganized
+      the categories).[5] He is a three-time winner of the IWF Male Lifter of the Year.
     questions_and_answers:
-      - question: |
-        "When was Lasha banned for doping"
-        answer: |
-        "2013"
-      - question: |
-        "how long was the ban"
-        answer: |
-        "2 years"
-      - question: |
-        "what drug was he banned for using"
-        answer: |
-        "stanozolol"
-  - context: |
-    "Olympic competition"
+      - question: How many olympcs has he won?
+        answer: He is a three time olympic champion
+      - question: What year was he born?
+        answer: '1993'
+      - question: what weightclasses has he competed in?
+        answer: 105 kg and 109+ kg weightclasses
+  - context: >-
+      Talakhadze represented Georgia at the 2015 World Weightlifting Championships, and originally finished
+      second with a total of 454 kg.[6] In December 2015, Aleksey Lovchev (the original gold medalist and world
+      record holder in the clean & jerk and total) failed a drug test[7] for Ipamorelin.[8][9] The IWF stripped his g
+      gold medal and rescinded his world records, and as a result Talakhadze became world champion.
     questions_and_answers:
-      - question:
-        "What olympics did he compete in"
-        answer: |
-        "2016, 2021, 2024"
-      - question: |
-        "what place did he finish in the olympics"
-        answer: |
-        "first"
-  - context: |
-    "Olympic weightlifting records Lasha holds"
+      - question: What place did he finish in the 2015 world weightlifting championships?
+        answer: second
+      - question: what was his total for the 2015 world weightlifting championship?
+        answer: 454kg
+      - question: what happened to Aleksey Lovchev the first place winner?
+        answer: he failed a drug test
+  - context: >-
+      In 2018, the IWF restructured the weight classes and nullified the existing world records.
+      The 2018 World Weightlifting Championships were the first international competition with new
+      weight classes and Talakhadze competed in the +109 kg category. In the snatch portion of the
+      competition he opened with 207 kg which placed him in the gold medal position with Gor Minasyan
+      being the only competitor with another attempt. After Minasyan missed his third attempt, Talakhadze
+      had the gold medal in the snatch secured. For his last two lifts, after securing the gold medal, he
+      completed two world record lifts of 212 kg and 217 kg to put him 12 kg ahead of Minasyan after the
+      snatch portion. In the clean & jerk portion of the competition he completed his first lift of 245 kg
+      which set a new world record in the total, and would have won the gold medal in the total if he did
+      not complete any more lifts. After Mart Seim failed to make a 251 kg clean & jerk, Talakhadze completed
+      a world record lift of 252 kg for his second lift. He finished the competition with another world record
+      lift of 257 kg, and finished with a 474 kg total, a full 24 kg over silver medalist Minasyan. In 2019,
+      he competed in the 2019 European Weightlifting Championships which was held in Batumi in his home country of Georgia.
     questions_and_answers:
-      - question: |
-        "What is his best overall sntach of all time"
-        answer: |
-        "223 kilos"
-      - question: |
-        "what was his best clean and jerk"
-        answer: |
-        "267 kilos"
-      - question: |
-        "what is his best total of all time"
-        answer: |
-        "492 kilos"
-document_outline: |
-  This is a wikipedia page about Lasha Talakhadze
+      - question: I what year did Lash first compete as a 109+?
+        answer: '2018'
+      - question: What were his lifts at the 2018 world weightlifting championship?
+        answer: Lash snatched 217 kilograms and clean and jerked 257 kg. This is a finish with a 474 kg total
+      - question: Where were the 2019 European weightlifting championships held?
+        answer: batum Georgia
+  - context: >-
+      Throughout his career he has set 26 official senior world records. His 220 kg snatch was a world record until
+      2018 when the IWF restructured the weight classes. He has since surpassed that lift for a current personal best
+      and world record in the +109 kg category of 225 kg set at the 2021 World Championships. His personal bests (on
+      video in training) are 225 kg snatch and a 270 kg clean and jerk. In 2021 at the tokyo olympics he snatched and olympic
+      record of 223kg and clean and jerked an olympc record of 265kg.
+    questions_and_answers:
+      - question: how many senior world records has he set?
+        answer: '26'
+      - question: what are his best training lifts that were videoed?
+        answer: Lash snatched 225 kilograms and clean and jerked 275 kg in training sessions
+      - question: what are his current olympic records at the olympics?
+        answer: Lash snatched 225 kilograms and clean and jerked 275 kg in training sessions
 document:
-  repo: https://github.com/jmacmullen/instructlab-knowledge-docs.git
-  commit: dae285d80db919af0537d3b2e19935a7b2c6de64 
+  repo: https://github.com/jmacmullen/instructlab-knowledge-docs
+  commit: f8c9621f2c80449093a790a8c7713bfbc1447bcb
   patterns:
     - lasha_talakhadze/lasha_talakhadze.md
-
-
