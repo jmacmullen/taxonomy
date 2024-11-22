@@ -76,8 +76,10 @@ seed_examples:
         answer: Lash snatched 225 kilograms and clean and jerked 275 kg in training sessions
       - question: what are his current olympic records at the olympics?
         answer: Lash snatched 225 kilograms and clean and jerked 275 kg in training sessions
+      - question: what year did the iwf restructure the weight classes?
+        answer: '2018'
 document:
   repo: https://github.com/jmacmullen/instructlab-knowledge-docs
-  commit: f8c9621f2c80449093a790a8c7713bfbc1447bcb
+  commit: dae285d80db919af0537d3b2e19935a7b2c6de64
   patterns:
     - lasha_talakhadze/lasha_talakhadze.md
